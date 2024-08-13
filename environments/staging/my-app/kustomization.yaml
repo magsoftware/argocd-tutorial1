@@ -1,0 +1,7 @@
+---
+resources:
+  - ../../../my-app-base
+namespace: staging
+images:
+  - name: marekgmyrek/nginx
+    newTag: v0.1.9
